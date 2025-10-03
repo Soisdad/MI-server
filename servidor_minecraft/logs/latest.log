@@ -111,3 +111,10 @@
 [00:48:28] [Server thread/INFO]: Villager byb['Villager'/122, l='ServerLevel[world]', x=100.63, y=71.50, z=133.28] died, message: 'Villager suffocated in a wall'
 [00:49:31] [Server thread/INFO]: Irregular24[/127.156.100.117:56915] logged in with entity id 380 at (9.5, 78.0, -6.5)
 [00:49:31] [Server thread/INFO]: Irregular24 joined the game
+[01:02:34] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[01:02:34] [Server thread/INFO]: ope Irregular21<--[HERE]
+[01:02:51] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[01:02:51] [Server thread/INFO]: ope Irregular24<--[HERE]
+[01:04:41] [Server thread/INFO]: Made Irregular24 a server operator
+[01:05:52] [Server thread/INFO]: [Irregular24: Created new objective [Muertes]]
+[01:06:00] [Server thread/INFO]: [Irregular24: Set display slot sidebar to show objective Muertes]
