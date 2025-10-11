@@ -1,0 +1,279 @@
+[11Oct2025 19:23:59.491] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[11Oct2025 19:23:59.499] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[11Oct2025 19:24:00.744] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[11Oct2025 19:24:00.819] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MI-server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[11Oct2025 19:24:01.230] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MI-server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[11Oct2025 19:24:01.238] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MI-server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Oct2025 19:24:01.243] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MI-server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Oct2025 19:24:01.247] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MI-server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Oct2025 19:24:01.626] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[11Oct2025 19:24:05.156] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[11Oct2025 19:24:05.343] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[11Oct2025 19:24:05.417] [main/WARN] [mixin/]: Reference map 'mixins.luminous_beasts.refmap.json' for mixins.luminous_beasts.json could not be read. If this is a development environment you can ignore this message
+[11Oct2025 19:24:05.490] [main/WARN] [mixin/]: Reference map 'monsterexpansion.refmap.json' for monsterexpansion.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Oct2025 19:24:05.516] [main/WARN] [mixin/]: Reference map 'mixins.block_factorys_bosses.refmap.json' for mixins.block_factorys_bosses.json could not be read. If this is a development environment you can ignore this message
+[11Oct2025 19:24:05.571] [main/WARN] [mixin/]: Reference map 'experienced_crops-forge-refmap.json' for experienced_crops.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Oct2025 19:24:06.930] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[11Oct2025 19:24:06.932] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[11Oct2025 19:24:06.932] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[11Oct2025 19:24:08.412] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[11Oct2025 19:24:20.556] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[11Oct2025 19:24:20.594] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[11Oct2025 19:24:22.466] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered azurelib config for auto-sync function
+[11Oct2025 19:24:22.740] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[11Oct2025 19:24:22.744] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[11Oct2025 19:24:23.011] [modloading-worker-0/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Registering RarityUpgradeRecipe serializer for ancientscribes:rarity_upgrade
+[11Oct2025 19:24:25.391] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[11Oct2025 19:24:27.990] [main/INFO] [Moonlight/]: Initialized block sets in 24ms
+[11Oct2025 19:24:28.468] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[11Oct2025 19:24:28.484] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[11Oct2025 19:24:28.485] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[11Oct2025 19:24:28.488] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[11Oct2025 19:24:28.646] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[11Oct2025 19:24:28.696] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/MI-server/servidor_minecraft/config/knightlib.toml is not correct. Correcting
+[11Oct2025 19:24:28.705] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/MI-server/servidor_minecraft/config/companions.toml is not correct. Correcting
+[11Oct2025 19:24:28.799] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/MI-server/servidor_minecraft/config/legendarycreatures/legendarycreatures-common.toml is not correct. Correcting
+[11Oct2025 19:24:28.799] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MobSpawning.wisp.Wisp Purse Xp Reward Range  was corrected from [30, 30] to its default, [30, 30]. 
+[11Oct2025 19:24:28.799] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MobSpawning.nether_wisp.Nether Wisp Purse Xp Reward Range  was corrected from [80, 80] to its default, [80, 80]. 
+[11Oct2025 19:24:28.800] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MobSpawning.ender_wisp.Ender Wisp Purse Xp Reward Range  was corrected from [240, 240] to its default, [240, 240]. 
+[11Oct2025 19:24:28.803] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/MI-server/servidor_minecraft/config/legendarycreatures/legendarycreatures-common.toml is not correct. Correcting
+[11Oct2025 19:24:29.605] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[11Oct2025 19:24:29.659] [main/INFO] [journeymap/]: Initializing Packet Registries
+[11Oct2025 19:24:30.245] [main/INFO] [Moonlight/]: Initialized color sets in 114ms
+[11Oct2025 19:24:30.319] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[11Oct2025 19:24:30.323] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[11Oct2025 19:24:30.517] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[11Oct2025 19:24:30.520] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[11Oct2025 19:24:30.755] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[11Oct2025 19:24:30.756] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
+[11Oct2025 19:24:30.808] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: UP_TO_DATE Current: 5.4.3 Target: null
+[11Oct2025 19:24:30.813] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[11Oct2025 19:24:31.082] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[11Oct2025 19:24:34.129] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11Oct2025 19:24:36.231] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MI-server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[11Oct2025 19:24:36.232] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MI-server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[11Oct2025 19:24:36.380] [main/INFO] [Moonlight/]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods []: []
+[11Oct2025 19:24:36.383] [main/INFO] [Moonlight/]: Finished runtime resources generation for 0 packs in a total of 0 ms
+[11Oct2025 19:24:40.588] [main/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Loading recipe from JSON: ancient_scribes:rarity_upgrade
+[11Oct2025 19:24:40.697] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
+[11Oct2025 19:24:40.890] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement monsterexpansion:craft_duskrend: Unknown required criterion 'crafted_duskrend'
+[11Oct2025 19:24:41.099] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2692 advancements
+[11Oct2025 19:24:41.126] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[11Oct2025 19:24:41.140] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[11Oct2025 19:24:41.145] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[11Oct2025 19:24:41.180] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: legendarycreatures:has_baby_scorpion_scarab, legendarycreatures:has_corpse_eater_scarab, legendarycreatures:has_desert_mojo_scarab, legendarycreatures:has_forest_mojo_butterfly, legendarycreatures:has_scarecrow_ladybug
+[11Oct2025 19:24:42.442] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[11Oct2025 19:24:42.445] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[11Oct2025 19:24:42.445] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[11Oct2025 19:24:42.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[11Oct2025 19:24:42.693] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[11Oct2025 19:24:42.734] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[11Oct2025 19:24:42.914] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11Oct2025 19:24:42.915] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[11Oct2025 19:24:42.916] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11Oct2025 19:24:42.918] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[11Oct2025 19:24:42.947] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[11Oct2025 19:24:42.949] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[11Oct2025 19:24:42.952] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[11Oct2025 19:24:43.207] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[11Oct2025 19:24:50.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[11Oct2025 19:24:59.374] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.382] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.390] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.393] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.395] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.397] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.405] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.421] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.425] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.433] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.439] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.445] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.448] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.449] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.451] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.454] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.459] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.465] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.469] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:24:59.548] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:25:00.048] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:25:00.548] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Oct2025 19:25:01.333] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11286 ms
+[11Oct2025 19:25:01.336] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.393s)! For help, type "help"
+[11Oct2025 19:25:01.429] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[11Oct2025 19:25:01.485] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[11Oct2025 19:25:01.490] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[11Oct2025 19:25:01.645] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 65516 bytes (in 7 string chunks with the size of 10000)
+[11Oct2025 19:25:36.878] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Irregular24[/127.156.100.117:38009] logged in with entity id 44 at (-719.5492006427309, 63.0, -1865.4341953582564)
+[11Oct2025 19:25:36.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Irregular24 joined the game
+[11Oct2025 19:25:41.465] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4765ms or 95 ticks behind
+[11Oct2025 19:26:18.842] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:18.863] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:18.880] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:18.888] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:18.895] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:18.904] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:18.910] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:18.919] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:19.360] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:19.612] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:19.992] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:19.996] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:20.307] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:21.483] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:21.709] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:21.710] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:22.158] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:23.229] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:23.236] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:23.240] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:23.244] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:23.250] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:23.255] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:28.395] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:28.398] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:28.401] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:28.402] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:28.404] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:28.406] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:28.407] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item item.iceandfire.dragonscales does not have rarity tag
+[11Oct2025 19:26:28.895] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:28.896] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:29.245] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:29.639] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:29.641] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:30.061] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:30.319] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:30.320] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:26:30.874] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:27:47.541] [Worker-Main-2/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[11Oct2025 19:27:56.358] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:lumberjack_additions_3_pool
+[11Oct2025 19:27:56.367] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:lumberjack_additions_3_pool
+[11Oct2025 19:27:56.368] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:lumberjack_additions_3_pool
+[11Oct2025 19:27:56.374] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:lumberjack_end_1_pool
+[11Oct2025 19:27:56.378] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:lumberjack_end_1_pool
+[11Oct2025 19:38:27.504] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_additions_2_pool
+[11Oct2025 19:38:27.506] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_additions_1_pool
+[11Oct2025 19:38:27.512] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_additions_4_pool
+[11Oct2025 19:38:27.513] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_additions_3_pool
+[11Oct2025 19:38:27.514] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_additions_3_pool
+[11Oct2025 19:38:27.516] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:angler_additions_3_pool
+[11Oct2025 19:38:27.517] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_end_1_pool
+[11Oct2025 19:38:27.521] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_end_1_pool
+[11Oct2025 19:38:49.730] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=215, y=-21, z=-12}
+[11Oct2025 19:38:49.737] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=215, y=-21, z=-10}
+[11Oct2025 19:38:49.738] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=217, y=-21, z=-12}
+[11Oct2025 19:38:49.738] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=217, y=-21, z=-10}
+[11Oct2025 19:39:05.748] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=215, y=-21, z=-14}
+[11Oct2025 19:39:05.748] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=217, y=-21, z=-14}
+[11Oct2025 19:44:29.313] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.813] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.818] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.818] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.821] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.821] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.822] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.822] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.823] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.824] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.824] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.825] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.825] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.826] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.827] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.827] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.828] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.828] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.829] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.830] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.830] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.831] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.831] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.832] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:29.832] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:32.915] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.219] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.220] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.221] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.223] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.224] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.225] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.225] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.226] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.227] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.228] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.228] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.229] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.230] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.230] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.231] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.232] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.233] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.233] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.234] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.235] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.235] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.236] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.237] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.237] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.238] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.239] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.240] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.240] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.241] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.242] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.243] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.243] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.244] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.245] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:33.246] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:34.662] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:35.955] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:35.956] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.920] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.921] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.923] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.925] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.926] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.929] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.930] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.932] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.933] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.935] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.938] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.942] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.945] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:48.948] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.oak_planks does not have rarity tag
+[11Oct2025 19:44:48.957] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.oak_planks does not have rarity tag
+[11Oct2025 19:44:49.939] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.oak_planks does not have rarity tag
+[11Oct2025 19:44:49.941] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.oak_planks does not have rarity tag
+[11Oct2025 19:44:49.943] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.oak_planks does not have rarity tag
+[11Oct2025 19:44:49.945] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.oak_planks does not have rarity tag
+[11Oct2025 19:44:49.948] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.oak_planks does not have rarity tag
+[11Oct2025 19:44:49.950] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:44:49.953] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:57:01.598] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:57:02.295] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:57:03.545] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:57:05.249] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:05.783] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:05.938] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:06.459] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:06.460] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:06.460] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:06.461] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:08.772] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:08.773] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:08.776] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:08.777] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:08.778] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:08.781] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:08.782] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:09.094] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:09.095] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:09.096] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:09.098] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:09.100] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:09.101] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
+[11Oct2025 19:58:09.104] [Server thread/INFO] [net.msp.ancientscribes.procedures.RarityUpgradeProcedure/]: Central item block.minecraft.air does not have rarity tag
